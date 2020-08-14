@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_myPlace"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Search"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_upload"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:title="Edit"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="Call"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_calendar"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Delete"
+        app:showAsAction="always"/>
+</menu>
